@@ -75,9 +75,9 @@ body, html {
     color: white;
 }
 .emailMe{
-    background: red;
+    background: #b40101;
     color: white;
-    border: 1px solid red;
+    border: 1px solid #b40101;
     text-align: center;
     padding: 7px 22px 7px 22px;
     font-size: 1.2em;
@@ -86,7 +86,7 @@ body, html {
 }
 .emailMe:hover{
     background: white;
-    color: red;
+    color: #b40101;
     border-color: white;
     cursor: pointer;
 }
