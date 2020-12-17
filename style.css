@@ -125,4 +125,7 @@ body, html {
       .welcomeMsg{
         font-size: 2.5em;
       }
+      .learnMore {
+        padding-top: 15%;
+}
   }
