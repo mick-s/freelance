@@ -6,7 +6,7 @@ body, html {
 }
 .hero {
     /* Use "linear-gradient" to add a darken background effect to the image*/
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Main_BG_1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Main_BG_1.jpg");
 
     /* Set a specific height */
     height: 101%;
