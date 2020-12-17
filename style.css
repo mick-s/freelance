@@ -139,7 +139,9 @@ body, html {
         font-size: 2em;
       }
       .learnMore {
-        padding-top: 15%;
+        position: relative;
+        top: 15%;
+        /* padding-top: 15%; */
     }
     .container {
         grid-template-columns: auto;
