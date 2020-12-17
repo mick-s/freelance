@@ -156,4 +156,7 @@ body, html {
     .emailMe{
         left: 38%;
     }
+     .bio {
+        padding-bottom: 12%;
+    }
   }
