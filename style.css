@@ -127,5 +127,8 @@ body, html {
       }
       .learnMore {
         padding-top: 15%;
-}
+      }
+      body, html {
+        width: 100%
+      }
   }
