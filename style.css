@@ -57,6 +57,10 @@ body, html {
     text-align: center;
 
 }
+.featured{
+    height: 20vw;
+    width: auto;
+}
 .footer{
     background: black;
     margin: 0 -20px -20px -20px;
