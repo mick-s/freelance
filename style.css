@@ -127,8 +127,19 @@ body, html {
       }
       .learnMore {
         padding-top: 15%;
-      }
-      body, html {
-        width: 100%;
-      }
+    }
+    .container {
+        grid-template-columns: auto;
+        height: 119vh;
+        padding-bottom: 5%;
+    }
+    .featured{
+        height: 37vw;
+    }
+    .footTitle{
+        font-size: 1.8em;
+    }
+    .emailMe{
+        left: 38%;
+    }
   }
