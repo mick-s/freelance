@@ -144,8 +144,8 @@ body, html {
         /* padding-top: 15%; */
     }
     .container {
-        grid-template-columns: auto;
-        padding-bottom: 65%;
+        grid-template-columns: 1fr;
+        padding-bottom: 5%;
     }
     .featured{
         height: 44vw;
