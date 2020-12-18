@@ -111,17 +111,17 @@ body, html {
     transform: scale(1.1); 
 }
 .container {
-    height: 65vh;
     margin: 5%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: minmax(375px, 1fr) minmax(375px, 1fr);
+    /* grid-template-rows: 1fr 1fr; */
     grid-gap: 10px;
+    justify-content: center;
   }
   .cell {
     color: white;
     text-align: center;
-    padding: 10%;
+    padding: 10% 10% 0 10%;
     font-size: 1.1em;
   }
   .cell-1 {
