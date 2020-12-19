@@ -75,19 +75,21 @@ body, html {
 }
 .emailMe{
     background: #b40101;
-    color: white;
+    color: #fff;
     border: 1px solid #b40101;
     text-align: center;
     padding: 7px 22px 7px 22px;
     font-size: 1.2em;
     border-radius: 10px;
     font-weight: 600;
+    transition: all .3s ease-in-out;
 }
 .emailMe:hover{
-    background: white;
+    background: #fff;
     color: #b40101;
-    border-color: white;
+    border-color: #fff;
     cursor: pointer;
+    transform: scale(1.1);
 }
 .bio {
     padding-left: 5%;
