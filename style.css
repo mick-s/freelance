@@ -160,15 +160,3 @@ body, html {
         padding-bottom: 12%;
     }
   }
-  @media only screen and (orientation : landscape){
-      .welcomeMsg{
-        font-size: 2em;
-        margin-top: 2%;
-      }
-      .logo img {
-        padding-top: 2%;
-      }
-      .learn {
-        padding-top: 3%;
-    }
-  }
