@@ -163,6 +163,12 @@ body, html {
   @media only screen and (orientation : landscape){
       .welcomeMsg{
         font-size: 2em;
-        margin-top: 4%;
+        margin-top: 2%;
       }
+      .logo img {
+        padding-top: 2%;
+      }
+      .learn {
+        padding-top: 3%;
+    }
   }
