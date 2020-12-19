@@ -22,7 +22,7 @@ body, html {
 .heroGrid {
     display: grid;
     grid-template-rows: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
     height: 100%;
     justify-items: center;
 }
@@ -33,11 +33,15 @@ body, html {
 .welcomeMsg {
     padding-left: 3%;
     padding-right: 3%;
+    font-size: 3em;
 }
 .fa, .fas {
     position: relative;
     left: 50%;
     color: #fff;
+}
+.centerText {
+    align-self: center;
 }
 .learnMore{
     justify-self: center;
@@ -53,7 +57,6 @@ body, html {
 }
 .projects{
     text-align: center;
-
 }
 .footer{
     background: black;
@@ -126,16 +129,25 @@ body, html {
   .cell-2 {
     background: black;
   }
+    @media screen and (max-width: 850px){
+    .welcomeMsg{
+      font-size: 2em;
+    }
+}
   @media screen and (max-width: 600px){
       .welcomeMsg{
         font-size: 1.8em;
       }
+      .centerText{
+        align-self: start;
+      }
+      .learnMore{
+        justify-self: center;
+        align-self: start;
+    }
     .container {
         grid-template-columns: 1fr;
         padding-bottom: 5%;
-    }
-    .featured{
-        height: 44vw;
     }
     .footTitle{
         font-size: 1.8em;
