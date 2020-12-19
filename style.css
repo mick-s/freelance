@@ -160,3 +160,9 @@ body, html {
         padding-bottom: 12%;
     }
   }
+  @media only screen and (orientation : landscape){
+      .welcomeMsg{
+        font-size: 2em;
+        margin-top: 4%;
+      }
+  }
